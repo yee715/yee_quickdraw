@@ -12,10 +12,8 @@ from threading import Timer
 # 可以在這邊設定繪圖畫板長寬，範例畫板是16:9
 width = 960
 height = 540
-topic_class = ['飛機', '蝙蝠', '熊', '鳥', '蠟燭', '車', '眼睛', '花朵', '冰淇淋',
-               '鑰匙', '棒棒糖', '老鼠', '嘴巴', '鼻子', '豬', '鯊魚', '草莓', '太陽', '電視', '大象']
-topic_class_eng = ['airplane', 'bat', 'bear', 'bird', 'candle', 'car', 'eye', 'flower', 'ice_cream', 'key',
-                   'lollipop', 'mouse', 'mouth', 'nose', 'pig', 'shark', 'strawberry', 'sun', 'television', 'elephant']
+topic_class = ['飛機', '蝙蝠', '熊', '鳥', '蠟燭', '車', '大象', '眼睛', '花朵', '冰淇淋', '鑰匙', '棒棒糖', '老鼠', '嘴巴', '鼻子', '豬', '鯊魚', '草莓', '太陽', '電視']
+topic_class_eng = ['airplane', 'bat', 'bear', 'bird', 'candle', 'car', 'elephant', 'eye', 'flower', 'ice_cream', 'key', 'lollipop', 'mouse', 'mouth', 'nose', 'pig', 'shark', 'strawberry', 'sun', 'television']
 dictionary = dict(zip(topic_class_eng, topic_class))
 
 
