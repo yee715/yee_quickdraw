@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # load model
-model = models.load_model('2latest_model_include_weight.h5')
+model = models.load_model('model_20_include_weight.h5')
 # load model
 
 # load class_name
