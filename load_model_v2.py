@@ -9,7 +9,7 @@ model = models.load_model('model_20_include_weight.h5')
 
 # load class_name
 class_names = []
-with open('old_class_name.txt') as f:
+with open('new_class_name.txt') as f:
   class_names = f.read().splitlines()
 # print(class_names)
 # load class_name
